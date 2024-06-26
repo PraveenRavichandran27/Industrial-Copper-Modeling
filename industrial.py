@@ -163,7 +163,7 @@ with tab2:
                     new_sample = np.concatenate((new_sample[:, [0,1,2, 3, 4, 5, 6,]], new_sample_ohe, new_sample_be), axis=1)
                     new_sample1 = scaler_loaded.transform(new_sample)
                     new_pred = loaded_model.predict(new_sample1)[0]
-                    st.write(f'<h2 class="fancy-text">Predicted selling price: {predicted_price}</h2>', unsafe_allow_html=True)
+                    st.write('## :green[Predicted selling price:] ', np.exp(new_pred))
 
 with tab3: 
         with st.form("my_form1"):
