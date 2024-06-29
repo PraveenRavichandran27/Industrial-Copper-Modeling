@@ -1,3 +1,4 @@
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -95,13 +96,14 @@ tab1, tab2, tab3 = st.tabs(["HOME","PREDICT SELLING PRICE", "PREDICT STATUS"])
 with tab1:
   
         h4 = " "
-st.write("#")
-st.write(f'<h4 style="color:lightblue;">This project focuses on developing two machine learning models for the copper industry, aimed at predicting the selling price and classifying leads effectively.</h4>', unsafe_allow_html=True)
-st.write(f'<h4 style="color:lightblue;">Traditional manual predictions are often time-consuming and may not lead to optimal pricing decisions or accurate lead classification.</h4>', unsafe_allow_html=True)
-st.write(f'<h4 style="color:lightblue;">Our models will employ advanced techniques such as data normalization, outlier detection and handling, correction of improperly formatted data, feature distribution analysis, and the use of tree-based models like decision trees to ensure accurate predictions of selling prices and lead classifications.</h4>', unsafe_allow_html=True)
-st.write("    ")
-st.write("### :orange[DOMAIN:] MANUFACTURING")
-st.write("""
+        st.write("#")
+        st.write(f'<h4 style="color:lightblue;">This project focuses on developing two machine learning models for the copper industry, aimed at predicting the selling price and classifying leads effectively.</h4>', unsafe_allow_html=True)
+        st.write(f'<h4 style="color:lightblue;">Traditional manual predictions are often time-consuming and may not lead to optimal pricing decisions or accurate lead classification.</h4>', unsafe_allow_html=True)
+        st.write(f'<h4 style="color:lightblue;">Our models will employ advanced techniques such as data normalization, outlier detection and handling, correction of improperly formatted data, feature distribution analysis, and the use of tree-based models like decision trees to ensure accurate predictions of selling prices and lead classifications.</h4>', unsafe_allow_html=True)
+        st.write("    ")
+        st.write("### :orange[DOMAIN:] MANUFACTURING")
+        st.write("""
+                    
                 ### :orange[TECHNOLOGIES USED:]
 
                 #### :green[PYTHON]
