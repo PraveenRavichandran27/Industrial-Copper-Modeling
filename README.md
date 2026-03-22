@@ -3,7 +3,7 @@
 ## Problem Statement
 
 The copper industry deals with data related to sales and pricing, which can be affected by skewness and noise, impacting the accuracy of manual predictions. This project aims to develop machine learning models to address these issues and provide optimal pricing decisions and lead classifications.
-
+ 
 The solution includes the following steps:
 1. Exploring skewness and outliers in the dataset.
 2. Transforming the data and performing necessary cleaning and preprocessing steps.
