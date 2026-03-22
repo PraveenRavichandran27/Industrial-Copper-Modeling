@@ -11,7 +11,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import re
 import pickle
-
+ 
 def get_df():
     df = pd.read_csv("copper.csv").reset_index(drop= True)
     return df
